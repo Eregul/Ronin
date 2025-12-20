@@ -1,0 +1,3 @@
+facing
+maps from magic/pre-mission research may not be reliable! need differentiating colors for these
+FOV: need sonar/echolocation, magic/psy boosts, scent trails
