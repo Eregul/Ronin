@@ -31,6 +31,20 @@ troll = Actor(
     inventory=Inventory(capacity=0),
 )
 
+confusion_scroll = Item(
+    char="~",
+    color=(207, 63, 255),
+    name="Confusion scroll", # TBC later
+    consumable=consumable.ConfusionConsumable(number_of_turns=10),
+)
+
+fireball_scroll = Item(
+    char="~",
+    color=(255, 0, 0),
+    name="Fireball scroll", # TBC
+    consumable=consumable.FireballDamageConsumable(damage=12, radius=3),
+)
+
 medkit = Item(
     char="!",
     color=(127, 0, 255),
@@ -41,6 +55,6 @@ medkit = Item(
 lightning_scroll = Item(
     char="~",
     color=(255, 255, 0),
-    name="Lightning scroll", #TBC later
+    name="Lightning scroll", # TBC later
     consumable=consumable.LightningDamageConsumable(damage=20, maximum_range=5),
 )
